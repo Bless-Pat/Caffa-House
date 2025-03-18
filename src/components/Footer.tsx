@@ -183,7 +183,7 @@ export default function Footer() {
                   href="mailto:info@caffa.example"
                   className="hover:text-accent transition-colors"
                 >
-                  caffahouseng.gmail.com
+                  caffahouseng@gmail.com
                 </a>
               </div>
             </div>
