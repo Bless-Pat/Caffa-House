@@ -24,13 +24,11 @@ export default function Navbar() {
       )}
     >
       <div className="caffa-container flex items-center justify-between">
-        <div className="flex items-center space-x-3 mb-8">
-          <div className="font-serif font-bold text-2xl tracking-tight text-white">
-            CaFFa
-            <span className="block text-sm font-normal mt-0.5 text-accent">
-              Get Cultured
-            </span>
-          </div>
+        <div className="font-serif font-bold text-2xl tracking-tight text-white">
+          CaFFa
+          <span className="block text-sm font-normal mt-0.5 text-accent">
+            Get Cultured
+          </span>
         </div>
 
         <nav className="hidden md:flex space-x-8">
