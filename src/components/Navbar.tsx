@@ -89,35 +89,35 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white shadow-lg">
+        <div className="md:hidden bg-black shadow-lg">
           <div className="px-4 py-5 space-y-4">
             <a
               href="#about"
-              className="block text-sm font-medium hover:text-primary transition-colors"
+              className="text-white block text-sm font-medium hover:text-primary transition-colors"
             >
               About
             </a>
             <a
               href="#services"
-              className="block text-sm font-medium hover:text-primary transition-colors"
+              className="text-white block text-sm font-medium hover:text-primary transition-colors"
             >
               Services
             </a>
             <a
               href="#workspace"
-              className="block text-sm font-medium hover:text-primary transition-colors"
+              className="text-white block text-sm font-medium hover:text-primary transition-colors"
             >
               Workspace
             </a>
             <a
               href="#booking"
-              className="block text-sm font-medium hover:text-primary transition-colors"
+              className="text-white block text-sm font-medium hover:text-primary transition-colors"
             >
               Book Now
             </a>
             <a
               href="#visit"
-              className="block text-sm font-medium hover:text-primary transition-colors"
+              className="text-white block text-sm font-medium hover:text-primary transition-colors"
             >
               Visit
             </a>
