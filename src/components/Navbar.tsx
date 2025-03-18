@@ -19,7 +19,7 @@ export default function Navbar() {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out",
         scrolled
-          ? "py-3 bg-white/90 backdrop-blur-sm shadow-sm"
+          ? "py-3 bg-black/90 backdrop-blur-sm shadow-sm"
           : "py-5 bg-transparent"
       )}
     >
@@ -36,31 +36,31 @@ export default function Navbar() {
         <nav className="hidden md:flex space-x-8">
           <a
             href="#about"
-            className="text-sm font-medium hover:text-primary transition-colors"
+            className="text-white text-sm font-medium hover:text-primary transition-colors"
           >
             About
           </a>
           <a
             href="#services"
-            className="text-sm font-medium hover:text-primary transition-colors"
+            className=" text-white text-sm font-medium hover:text-primary transition-colors"
           >
             Services
           </a>
           <a
             href="#workspace"
-            className="text-sm font-medium hover:text-primary transition-colors"
+            className="text-white text-sm font-medium hover:text-primary transition-colors"
           >
             Workspace
           </a>
           <a
             href="#booking"
-            className="text-sm font-medium hover:text-primary transition-colors"
+            className="text-white text-sm font-medium hover:text-primary transition-colors"
           >
             Book Now
           </a>
           <a
             href="#visit"
-            className="text-sm font-medium hover:text-primary transition-colors"
+            className="text-white text-sm font-medium hover:text-primary transition-colors"
           >
             Visit
           </a>
