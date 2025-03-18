@@ -67,7 +67,7 @@ export default function Navbar() {
         </nav>
 
         <button
-          className="md:hidden focus:outline-none"
+          className="md:hidden focus:outline-none text-white"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           <svg
