@@ -18,7 +18,7 @@ export default function Testimonials() {
   const testimonials: Testimonial[] = [
     {
       id: 1,
-      name: "Tomiwa Samuel",
+      name: "Ayotomiwa",
       role: "Business Analyst",
       quote:
         "I've met incredible people in this space, built meaningful connections, and even turned those bonds into business opportunities ",
@@ -27,7 +27,7 @@ export default function Testimonials() {
     },
     {
       id: 2,
-      name: "Samuel Akinyemi",
+      name: "Samuel",
       role: "AI consultant",
       quote:
         "I come here to study, the reliable power supply and great coffee make it my go-to place for focused learning",
@@ -36,7 +36,7 @@ export default function Testimonials() {
     },
     {
       id: 3,
-      name: "Blessing Patrick",
+      name: "Blessing",
       role: "Front End Developer",
       quote:
         "Since discovering Caffa, I've made it my regular spot. The salon services are exceptional, and I love working here afterward.",
